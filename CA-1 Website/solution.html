@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.vehicle-comparison {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.vehicle {
+    width: 40%;
+    padding: 15px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.vehicle h3 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.c1{
+    background-color: aqua;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Environmental Impacts of Vehicles</h1>
+        <nav>
+            <ul>
+                <li><a href=home.html>Home</a></li>
+                <li><a href=overview.html>Overview</a></li>
+                <li><a href=comparison.html>Comparison</a></li>
+                <li><a href=solution.html>Solutions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <tr>
+            <td><img src="sol2.jpg" width="750" height="400"></td>
+            <td><img src="sol1.webp" width="750" height="400"></td>
+        </tr>
+    </table>
+    <section id="solutions">
+        <h2>SOLUTIONS</h2>
+        <ul>
+            <li><i><b>Electric Vehicles (EVs):</b></i>Transitioning to EVs can significantly reduce emissions of greenhouse gases and air pollutants.</li>
+            <br>
+            <li><i><b>Hybrid Vehicles:</b></i> Combining electric and gasoline engines can improve fuel efficiency and reduce emissions.</li>
+            <br>
+            <li><i><b>Fuel Cell Vehicles:</b></i> Using hydrogen as fuel, these vehicles produce only water as a byproduct, offering a clean alternative.</li>
+            <br>
+            <li><i><b>Improved Fuel Efficiency:</b></i> Implementing technologies like lightweight materials, aerodynamic designs, and regenerative braking can enhance fuel economy.</li>
+            <br>
+            <li><i><b>Public Transportation:</b></i> Encouraging the use of public transportation can reduce the number of vehicles on the road and decrease emissions.</li>
+            <br>
+            <li><i><b>Bike-Sharing and Walkable Cities:</b></i> Promoting cycling and walking can contribute to a healthier environment and reduce vehicle use.</li>
+            <br>
+            <li><i><b>Carpooling and Ride-Sharing:</b></i> Sharing rides can reduce the number of vehicles on the road and decrease emissions.</li>
+            <br>
+            <li><i><b>Urban Planning and Zoning:</b></i> Creating cities with better infrastructure for pedestrians, cyclists, and public transportation can reduce reliance on private vehicles.</li>
+            <br>
+            <li><i><b>Stricter Emissions Standards:</b></i> Implementing and enforcing stricter emissions regulations for vehicles can help reduce pollution.</li>
+            <br>
+            <li><i><b>Renewable Energy for Vehicle Charging:</b></i> Ensuring that the electricity used to charge EVs comes from renewable sources can further reduce environmental impact.</li>
+        </ul>
+    </section>
+    <table>
+        <tr>
+        <td><img src="sol3.jpg" name="p1" id="p1" width="1550" height="500" </td>
+        </table>
+        <div style="background:#133623;color:white;font-size:25;padding:20px;"><marquee>Developed & Designed by <u>Dinesh Bishnoi</u>       
+            &copy;Environmental Impacts of Vehicles</marquee></div>
+    <script>
+        a=0
+        x=setInterval("f1()",5000)
+        abc=new Array("sol3.jpg","sol4.png","sol5.webp")
+        function f1()
+        {
+        p1.src=abc[a]
+        a=a+1
+        if(a>2)
+        a=0
+        }
+        </script>
+</body>
+</html>

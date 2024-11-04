@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.vehicle-comparison {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.vehicle {
+    width: 40%;
+    padding: 15px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.vehicle h3 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.c1{
+    background-color: aqua;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Environmental Impacts of Vehicles</h1>
+        <nav>
+            <ul>
+                <li><a href=home.html>Home</a></li>
+                <li><a href=overview.html>Overview</a></li>
+                <li><a href=comparison.html>Comparison</a></li>
+                <li><a href=solution.html>Solutions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="comparison">
+        <h2 >Vehicle Comparison</h2>
+        <div class="vehicle-comparison">
+            <div class="vehicle">
+                <h3>Conventional Vehicles</h3>
+                <ul>
+                    <li>Run on gasoline or diesel derived from fossil fuels.</li>
+                    <li>Produce significant tailpipe emissions, including CO₂, NOx, and particulate matter.</li>
+                    <li>Internal combustion engines have lower efficiency, converting only 20–30% of the fuel's energy into motion.</li>
+                    <li>Subject to fluctuating gasoline/diesel prices, often higher on average.</li>
+                    <li>Require frequent maintenance (oil changes, spark plugs, exhaust systems, etc.).</li>
+                    <li>Typically offer longer driving ranges, up to 400-500 miles on a single tank of gas.</li>
+                </ul>
+            </div>
+            <div class="vehicle">
+                <h3>Electric Vehicles</h3>
+                <ul>
+                    <li>Powered by electricity, which can come from various sources, including renewable energy.</li>
+                    <li>Produce no tailpipe emissions. However, emissions depend on how the electricity is generated.</li>
+                    <li>Electric motors are highly efficient, converting over 80% of the electrical energy into movement.</li>
+                    <li>Electricity is generally cheaper, and renewable sources can lower the cost further.</li>
+                    <li>Have fewer moving parts, requiring less maintenance (no oil changes, fewer repairs).</li>
+                    <li>Average ranges are lower (200-300 miles), though some models can exceed 350 miles.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <table>
+        <tr>
+            <td><img src="conv.jpg" width="750" height="400"></td>
+            <td><img src="elec.jpg" width="750" height="400"></td>
+        </tr>
+    </table>
+    <div style="background:#133623;color:white;font-size:25;padding:20px;"><marquee>Developed & Designed by <u>Dinesh Bishnoi</u>       
+        &copy;Environmental Impacts of Vehicles</marquee></div>
+</body>
+</html>
